@@ -9,10 +9,20 @@ namespace Lesson2
             task13(1, 2);
             task14(2, 3);
             task37(5, 1000, 250);
-            /*
-            task38();
-            task44();
-            */
+            task38(4);
+            task44(23);
+        }
+
+        private static void task44(double x)
+        {
+            double result = (Math.Sqrt(x + 1) + Math.Sqrt(x - 1)) / (2 * Math.Sqrt(x));
+            Console.WriteLine("Lesson2 task44: " + result);
+        }
+
+        private static void task38(double r)
+        {
+            double result = 2 * Math.PI * r;
+            Console.WriteLine("Lesson2 task38: " + result);
         }
 
         private static void task37(double m1, double m2, double r)
